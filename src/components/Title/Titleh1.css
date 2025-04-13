@@ -1,0 +1,24 @@
+h1{
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke: var(--primary-color) 4px;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width: 575px){
+    h1{
+        font-size: 50px;
+        -webkit-text-stroke:  var(--primary-color) 3px;
+    }
+}
+
+@media (max-width: 380px){
+    h1{
+        font-size: 40px;
+        -webkit-text-stroke: var(--primary-color) 3px;
+    }
+}

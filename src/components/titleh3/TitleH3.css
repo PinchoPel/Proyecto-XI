@@ -1,0 +1,10 @@
+.titleh3{
+    font-weight: 700;
+    color:rgb(87, 6, 2);
+}
+
+@media (max-width: 460px){
+    .titleh3{
+        font-size: small;
+    }
+}
