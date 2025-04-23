@@ -10,7 +10,7 @@ const PokeCard = () => {
     const [pokemon, setPokemon] = useState([]);
     const [number, setNumber] = useState([])
     const {id}= useParams();
-    const { start, end } = generationRanges[id ];
+    const { start, end } = generationRanges[id];
 
     const uniquePokemon = [];
     const pokeIds = [];
